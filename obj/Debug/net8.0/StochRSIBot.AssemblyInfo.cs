@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StochRSIBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fb0076686c7b0816ec2f87cc1cc536358311cb8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ead339a44039af067f3d3d28bb630bf99afa452")]
 [assembly: System.Reflection.AssemblyProductAttribute("StochRSIBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StochRSIBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
