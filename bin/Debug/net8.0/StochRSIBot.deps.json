@@ -1,0 +1,125 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StochRSIBot/1.0.0": {
+        "dependencies": {
+          "Binance.Net": "8.0.7",
+          "Skender.Stock.Indicators": "2.1.0"
+        },
+        "runtime": {
+          "StochRSIBot.dll": {}
+        }
+      },
+      "Binance.Net/8.0.7": {
+        "dependencies": {
+          "CryptoExchange.Net": "5.1.4"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Binance.Net.dll": {
+            "assemblyVersion": "8.0.7.0",
+            "fileVersion": "8.0.7.0"
+          }
+        }
+      },
+      "CryptoExchange.Net/5.1.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/CryptoExchange.Net.dll": {
+            "assemblyVersion": "5.1.1.0",
+            "fileVersion": "5.1.4.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.100.19.56504"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.100.19.56504"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Skender.Stock.Indicators/2.1.0": {
+        "runtime": {
+          "lib/net7.0/Skender.Stock.Indicators.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StochRSIBot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Binance.Net/8.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PgIbjRE4UFOi1UdIhjQIKgw/pTRkntC5zK2qERESNSECUm0FCtRZHzG4IYiq0MPRgUx3KcTVClBgODa5e44e0g==",
+      "path": "binance.net/8.0.7",
+      "hashPath": "binance.net.8.0.7.nupkg.sha512"
+    },
+    "CryptoExchange.Net/5.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8e95OjZ5jA1n7p3j1cYoD847w9zc0hlA7htFmzkZ5i4fu7NWKVPxbpGTyur7bQTW5XLEpPQ9TqpbkpbHAkRgKg==",
+      "path": "cryptoexchange.net/5.1.4",
+      "hashPath": "cryptoexchange.net.5.1.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-44rDtOf1JXXAFpNT2EXMExaDm/4OJ2RXOL9i9lE4bK427nzC7Exphv+beB6IgluyE2GIoo8zezTStMXI7MQ8WA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jjo4YXRx6MIpv6DiRxJjSpl+sPP0+5VW0clMEdLyIAz44PPwrDTFrd5PZckIxIXl1kKZ2KK6IL2nkt0+ug2MQg==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Skender.Stock.Indicators/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x/ApaR+G0B44ykPfeqGIY/ZxpWenwX788wP1ZBp1vaZlH/2JUyw+46wwicDStTj6aw51ISMVJUe8kDBEGo+Qog==",
+      "path": "skender.stock.indicators/2.1.0",
+      "hashPath": "skender.stock.indicators.2.1.0.nupkg.sha512"
+    }
+  }
+}
